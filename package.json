@@ -1,0 +1,28 @@
+{
+  "name": "electron-vuejs-calculator",
+  "version": "1.0.0",
+  "description": "A sample electron based calculator application using vuejs",
+  "main": "main.js",
+  "scripts": {
+    "start": "node_modules/.bin/electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikksub/electron-vuejs-calculator.git"
+  },
+  "keywords": [
+    "sample",
+    "electron",
+    "vuejs",
+    "calculator"
+  ],
+  "author": "Sai K K <saikksub@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saikksub/electron-vuejs-calculator/issues"
+  },
+  "homepage": "https://github.com/saikksub/electron-vuejs-calculator#readme",
+  "devDependencies": {
+    "electron": "^1.8.2"
+  }
+}
