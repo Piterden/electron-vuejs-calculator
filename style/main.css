@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: #312450;
     -webkit-user-select: none;
 }
 
@@ -9,11 +9,21 @@ body {
     width: 100%;
     height: 9em;
 
-    position: fixed;
+    position: relative;
     left: 0;
     top: 0;
 
     -webkit-app-region:drag;
+}
+
+.display-layout .display-console {
+    color: white;
+    font-size: 4em;
+    word-wrap: break-word;
+
+    position: absolute;
+    bottom: 0;
+    right: 10px;
 }
 
 .keyboard-layout {
