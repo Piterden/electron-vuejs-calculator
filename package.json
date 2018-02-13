@@ -24,5 +24,8 @@
   "homepage": "https://github.com/saikksub/electron-vuejs-calculator#readme",
   "devDependencies": {
     "electron": "^1.8.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.13"
   }
 }
