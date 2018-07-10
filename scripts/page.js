@@ -137,21 +137,23 @@
         appConsole.value = "0";
     }
 
-    function computeOffset(f_fontSize){
-        let result = 0;
-        (appConsole.value.length == 7) ? result = 1: '';
-        (appConsole.value.length == 9) ? result = 0.2: '';
-        (appConsole.value.length >= 9 && appConsole.value.length <= 14) ? result = 0.2: '';
-        (appConsole.value.length == 15) ? result = 0.2: '';
-        (appConsole.value.length == 17) ? result = 0.2: '';
-        (appConsole.value.length == 20) ? result = 0.2: '';
-        (appConsole.value.length == 24) ? result = 0.1: '';
-        (appConsole.value.length == 26) ? result = 0.067: '';
-        (appConsole.value.length == 28) ? result = 0.067: '';
-        (appConsole.value.length == 30) ? result = 0.047: '';
-        (appConsole.value.length == 31) ? result = 0.037: '';
-        (appConsole.value.length >= 32 && appConsole.value.length < 37) ? result = 0.017: '';
-        (appConsole.value.length == 37) ? result = 0.050: '';
-        return result;
-    }    
+    function computeOffset() {
+        let result = 0
+
+        result = appConsole.value.length == 7 ? 1 : ''
+        result = appConsole.value.length == 9 ? 0.2 : ''
+        result = appConsole.value.length >= 9 && appConsole.value.length <= 14 ? 0.2 : ''
+        result = appConsole.value.length == 15 ? 0.2 : ''
+        result = appConsole.value.length == 17 ? 0.2 : ''
+        result = appConsole.value.length == 20 ? 0.2 : ''
+        result = appConsole.value.length == 24 ? 0.1 : ''
+        result = appConsole.value.length == 26 ? 0.067 : ''
+        result = appConsole.value.length == 28 ? 0.067 : ''
+        result = appConsole.value.length == 30 ? 0.047 : ''
+        result = appConsole.value.length == 31 ? 0.037 : ''
+        result = appConsole.value.length >= 32 && appConsole.value.length < 37 ? 0.017 : ''
+        result = appConsole.value.length == 37 ? 0.050 : ''
+
+        return result
+    }
 })();
